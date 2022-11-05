@@ -24,7 +24,6 @@ int main() {
     // process & output
     try {
         int intInteger = std::stoi(integerAsString);
-
         while (loopCounter <= intInteger) {
             answerSum = answerSum + loopCounter;
             loopCounter = loopCounter + 1;

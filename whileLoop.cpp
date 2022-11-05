@@ -24,6 +24,7 @@ int main() {
     // process & output
     try {
         int intInteger = std::stoi(integerAsString);
+
         while (loopCounter <= intInteger) {
             answerSum = answerSum + loopCounter;
             loopCounter = loopCounter + 1;
@@ -34,6 +35,5 @@ int main() {
     } catch (std::invalid_argument) {
         std::cout << "That was not a valid input.";
     }
-    std::cout << std::endl;
     std::cout << "\nDone." << std::endl;
 }
